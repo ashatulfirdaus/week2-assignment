@@ -1,0 +1,81 @@
+
+/* Expense table */
+.expenses-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.expenses-section th,
+.expenses-section td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+.expenses-section th {
+    background-color: #2e8b57;
+    color: white;
+}
+
+/* Advanced selector: alternating rows */
+.expenses-section tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Interactive hover effect */
+.expenses-section tbody tr:hover {
+    background-color: #d8f3dc;
+}
+
+/* Form styling */
+.add-expense-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+.add-expense-section input:not([type="submit"]),
+.add-expense-section select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Advanced selector: focus state */
+.add-expense-section input:focus,
+.add-expense-section select:focus {
+    outline: 2px solid #2e8b57;
+}
+
+/* Button */
+.add-expense-section button {
+    padding: 12px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-expense-section button:hover {
+    background-color: #246b45;
+}
+
+/* Logo */
+h1 img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+/* Help section */
+details {
+    margin-top: 20px;
+    padding: 12px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+}
